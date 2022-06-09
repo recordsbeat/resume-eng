@@ -73,13 +73,12 @@ Enhancing transaction performance on Batch application by index optimization and
 
 ### Virtual thread (a.k.a project loom) 
 Lightweight thread(fiber) will set us free from thread performance so that we don’t need to deal with non-blocking operation for performance
-[link][https://www.youtube.com/watch?v=6dpHdo-UnCg]
+[link](https://www.youtube.com/watch?v=6dpHdo-UnCg)
 
 ### Shenandoah GC(a.k.a Low-pause)
 Load reference barrier enables not only concurrent marking swap but also compact(evacuation) 
 Expect it will shrink GC pause time dramatically at Server API application
-[link][https://openjdk.java.net/jeps/404]
-
+[link](https://openjdk.java.net/jeps/404)
 
 
 
