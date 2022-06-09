@@ -30,7 +30,7 @@ Success & fail alarm to Slack (chatOps & SRE oriented)
 Implementation of strategy pattern 
 Routing method by comparing requested value to reserved value and 
 
-
+<br>
 
 ## What I’m doing
 
@@ -43,7 +43,7 @@ Layerd / Hexagonal Architecture
 
 ### Data Handling in Event driven and Micro service Architecture
 
-
+<br>
 
 
 ## What I’m working on
