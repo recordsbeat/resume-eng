@@ -235,7 +235,7 @@ see here!
 
 ---
 
-## 마치며
+## Concluding
 
 I got to know Shenandoah GC while studying GC, and there are not many Korean documents compared to CMS or G1, so I wrote this after doing some research.
 There is a sense of disappointment because the explanations may be very poor compared to the research material, but I think you will be able to understand it easily if you refer to the contents attached below slowly.
