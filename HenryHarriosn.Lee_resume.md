@@ -29,7 +29,7 @@
 
 
 ## 🧱 Domain 
-### Influencer Service(User Generated Content) @[Naver](https://influencercenter.naver.com)
+### Influencer Service(User Generated Content) @[Naver](https://influencercenter.naver.com) - current
 - Collecting content through multiple platform (such as. naver blog, youtube, instagram, twitter)
 - Expose contents to search engine
 - Enablement to create user generated content in Influencer platform itself
