@@ -138,20 +138,21 @@ The criteria for reducing ``plan_cache_max_size`` and ``plan_parameter_metadata_
 
 >
 ...By default, the maximum number of entries in the plan cache is 2048. An HQLQueryPlan object occupies approximately 3MB. ~3 * 2048 = ~6GB, and **I the heap size is limited to 4GB**…
+
 Finally! That must be the cause!
 The solution is simple: decreasing the query plan cache size by setting the following properties:
 >
-spring.jpa.properties.hibernate.query.plan_cache_max_size: controls the maximum number of entries in the plan cache (defaults to 2048)
+``spring.jpa.properties.hibernate.query.plan_cache_max_size``: controls the maximum number of entries in the plan cache (defaults to 2048)
 >
-spring.jpa.properties.hibernate.query.plan_parameter_metadata_max_size: manages the number of ParameterMetadata instances in the cache (defaults to 128)
+``spring.jpa.properties.hibernate.query.plan_parameter_metadata_max_size``: manages the number of ParameterMetadata instances in the cache (defaults to 128)
 >
 **I set them to 1024 and 64 respectively**.
 >
 https://medium.com/quick-code/what-a-recurring-outofmemory-error-taught-me-11f2061063a1
 
 In the above article, in the case of 4GB,
-plan_cache_max_size = 1024
-plan_parameter_metadata_max_size was set to 64
+``plan_cache_max_size`` = 1024
+``plan_parameter_metadata_max_size`` was set to 64
 , so I also set it according to the ratio.
 
 And with the above solution, the OutOfMemory error is said to be fixed.
