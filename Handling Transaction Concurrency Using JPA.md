@@ -218,7 +218,7 @@ A parallel processing phantom read phenomenon occurred between about 50 million 
 because the weight of the task to be executed by the batch is large . However, when using JPA, a phenomenon of rollback may occur depending on the caller.
 
 
-Woowa Brothers - Why is this a rollback..?
+Woowa Brothers - Why is this a rollback..? <br>
 https://woowabros.github.io/experience/2019/01/29/exception-in-transaction.html
 
 Therefore, even if a separate retry logic through an exception is used, careful coding is required so that an unexpected rollback does not occur.
