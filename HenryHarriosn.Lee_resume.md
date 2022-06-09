@@ -69,7 +69,7 @@
 
 ### Domain driven oriented architecture design
 - Define domain model as a POJO
-- Isolate root domain aggregate by package boundary
+- Isolate domain aggregate by package boundary
 - Communication between domain package by using facade, inbound event
 
 
