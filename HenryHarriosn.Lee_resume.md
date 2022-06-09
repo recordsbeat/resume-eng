@@ -1,5 +1,3 @@
-# Backend Developer- HenryHarrison.Lee 
-
 ## 😎 Info 
 
 ### ❕ Henry Harrison Lee 
