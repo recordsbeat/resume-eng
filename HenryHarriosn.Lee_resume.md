@@ -10,7 +10,7 @@
 
 - [LinkedIn](https://www.linkedin.com/in/heeyeon-lee-61763a190/)
 - [Blog](https://velog.io/@recordsbeat) <br>
-(All article is written in Korean, you may read with Chrome translator. I think it's working very well, but Some of articles from my blog have been translated in English roughly in this repository and I attach them each section of this article properly)
+(All article is written in Korean, you may read with Chrome translator. I think it's working very well, but Some of articles from my blog have been translated in English roughly in this repository and I attach them each of proper section of this article)
 - [GitHub](https://github.com/recordsbeat)
 
 ### Contact
