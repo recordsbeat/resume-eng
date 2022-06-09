@@ -1,45 +1,56 @@
-## 😎 Info 
+## ✔ Info 
 
-### ❕ Henry Harrison Lee 
+### Henry Harrison Lee 
 ![image](https://user-images.githubusercontent.com/51354965/172858000-9967e637-cf3f-43f7-9fb7-615a0dbd2799.png)
-- Backend Developer based on Java&Spring(over 5years experienced)
+- Backend Developer based on Java & Spring (over 5years experienced)
 - Bachelor's degree of Software Engineering
-- Korean(Native), English(Fluent)
+- Korean (Native), English (Fluent)
 
-### ✔ Outlink 
+### Outlink 
 
-- [linkenIn](https://www.linkedin.com/in/heeyeon-lee-61763a190/)
-- [Blog](https://velog.io/@recordsbeat) (All article is written in Korean, you may read with chrome translator. I think it's working very well)
+- [LinkedIn](https://www.linkedin.com/in/heeyeon-lee-61763a190/)
+- [Blog](https://velog.io/@recordsbeat) <br>
+(All article is written in Korean, you may read with Chrome translator. I think it's working very well, but Some of articles from my blog have been translated in English roughly in this repository and I attach them each section of this article properly)
 - [GitHub](https://github.com/recordsbeat)
 
 <br>
 
 ## 🔨 Development Environment 
-- Spring boot 2.5.x
-- JDK 11 (modern Java)
-- IntelliJ
-- Database : Mysql, Elastic Search, Redis
+- Framwork : Spring boot 2.5.x
+- SDK : JDK 11 (modern Java)
+- IDE : IntelliJ
+- Infra : Mysql, Elastic Search, Redis, Kafka
 - Monitoring : Grafana, Pinpoint, Spring Admin
-- Aws, Kubernetes
-
+- DevOps : Github, Bitbucket, Jenkins, Aws, Kubernetes 
 
 
 ## 🧱 Domain 
 ### Influencer Service(User Generated Content) @[Naver](https://influencercenter.naver.com)
 - Collecting content through multiple platform (such as. naver blog, youtube, instagram, twitter)
 - Expose contents to search engine
-- Enable to create user generated content in Influencer platform itself
+- Enablement to create user generated content in Influencer platform itself
 
 
 ### E-commerce @[Wemakeprice](https://wemakeprice.com)
 - Categorizing & labeling item data
-- Determining the lowest price deal
+- Determining the lowest price of each categories
 - Expose the lowest price to search engine
 
 
 <br><br>
 
 
+
+## 💪 What I’m good at
+
+- Knowing JPA(hibernate) lifecycle to avoid unintended query & performance decline <br>
+[Query tuning and solving N+1 using QueryDsl - from my blog](https://github.com/recordsbeat/resume-eng/blob/a275fd280ca51d9c9df37c48a34e57ebff157ff4/Query%20tuning%20and%20solving%20N+1%20using%20QueryDsl.md) <br>
+[Resolving OutOfMemory caused by JPA hibernate Query Plan Cache - from my blog](https://github.com/recordsbeat/resume-eng/blob/a275fd280ca51d9c9df37c48a34e57ebff157ff4/Resolving%20OutOfMemory%20caused%20by%20JPA%20hibernate%20Query%20Plan%20Cache.md) 
+
+- Enhancing transaction performance in Batch application by index optimization and decrease locking duration <br>
+[Handling Transaction Concurrency Using JPA - from my blog](https://github.com/recordsbeat/resume-eng/blob/a275fd280ca51d9c9df37c48a34e57ebff157ff4/Handling%20Transaction%20Concurrency%20Using%20JPA.md) <br>
+
+<br>
 
 
 ## 📝 What I have done
@@ -77,13 +88,6 @@
 <br><br>
 
 
-
-## 💪 What I’m good at
-
-- Knowing JPA(hibernate) lifecycle to avoid unintended query & performance decline
-- Enhancing transaction performance on Batch application by index optimization and decrease locking duration
-
-
 ## 👂 What I’m interested in
 
 ### Virtual thread (a.k.a project loom) 
@@ -92,6 +96,8 @@
 ### Shenandoah GC (a.k.a Low-pause)
 - Load reference barrier enables not only concurrent marking swap but also compact(evacuation) 
 - Expect it will shrink GC pause time dramatically at Server API application
+
+[Low-Pause ! Shenandoah GC - from my blog](https://github.com/recordsbeat/resume-eng/blob/a275fd280ca51d9c9df37c48a34e57ebff157ff4/Low-Pause%20!%20Shenandoah%20GC.md) <br>
 
 ### Consumer Driven Contract Test (a.k.a Pact)
 - Consumer generates Pact, so client side won't need to wait anymore until server gives Api spec(such as swagger)
