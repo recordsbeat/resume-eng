@@ -17,6 +17,23 @@
 - beathuman@naver.com
 - or LinkedIn Messenger!
 
+
+### experience
+- **Back End Developer@NAVER Corp (Sep 2021 - Present)**
+  - Backend development based on Spring boot within MSA, EDA
+  
+- **Catalog Data Development@Wemakeprice(Jul 2020 - Aug 2021 · 1 yr 2 mos)**
+  - Search Data Operation with Spirng MVC, Batch in MSA
+- **Software Engineer@Guiving(Aug 2019 - Jun 2020 · 11 mos)**
+  - Backend-Web development
+  - DevOps, Server Infra engineering
+- **Project Manager@Drift Entertainment(Oct 2018 - Aug 2019 · 11 mos)**
+  - Project management
+  - Web development
+  - AWS Infra engineering
+- **Web Developer@DongeunIT(May 2017 - Jul 2018 · 1 yr 3 mos)**
+  - EMR of Soonchunhyang University Hospital management
+  - Emergency monitoring service
 <br>
 
 ## 🔨 Development Environment 
