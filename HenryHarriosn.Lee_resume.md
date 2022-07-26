@@ -18,7 +18,7 @@
 - or LinkedIn Messenger!
 
 
-### experience
+### Experience
 - **Back End Developer@NAVER Corp (Sep 2021 - Present)**
   - Backend development based on Spring boot within MSA, EDA
   
