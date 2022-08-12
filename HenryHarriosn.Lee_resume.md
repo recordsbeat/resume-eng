@@ -80,10 +80,6 @@
 - Logging result meta-data using Scheduler annotation 
 - Success & fail alarm to Slack (chatOps & SRE oriented)
 
-### MethodRouter based Spring AOP
-- Implementation of strategy pattern 
-- Routing method by comparing requested value to reserved value
-
 ### Domain driven oriented architecture design
 - Define domain model as a POJO
 - Isolate domain aggregate by package boundary
@@ -100,11 +96,11 @@
 - Describe test case by method fixture
 - Enhance test performance by reusing container 
 
-### Debezium(CDC)
+### CDC(Change Data Capture by Debezium - kafka connect)
 - Establish Debezium instance in Kubernetes
 - Planning database instance fail over strategy
 - Adding on Kafka Connect (including debezium) management tool (Debezium UI)
-
+- Defining gap between source and sink database that meets tolerable delay by stress Test
 
 <br><br>
 
