@@ -99,7 +99,7 @@
 ### CDC(Change Data Capture by Debezium - kafka connect)
 - Establish Debezium instance in Kubernetes
 - Planning database instance fail over strategy
-- Adding on Kafka Connect (including debezium) management tool (Debezium UI)
+- Adding on Kafka Connect (including debezium) management tool (UI for Apache kafka )
 - Defining gap between source and sink database that meets tolerable delay by stress Test
 
 <br><br>
